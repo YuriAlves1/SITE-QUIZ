@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de HTML e CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Quiz de HTML e CSS</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1) O que significa a sigla HTML?</p>
+                <input type="radio" name="q1" value="A"> A) Hypertext Medium Language<br>
+                <input type="radio" name="q1" value="B"> B) Hypertext Markup Language<br>
+                <input type="radio" name="q1" value="C"> C) Hypertext Markup Lingo<br>
+                <input type="radio" name="q1" value="D"> D) Hypertext Minimum Language<br>
+            </div>
+            <div class="question">
+                <p>2) Qual a instrução que indica ao browser qual o tipo de documento que ele vai abrir?</p>
+                <input type="radio" name="q2" value="A"> `&lt;!DOCTYPE html&gt;`<br>
+                <input type="radio" name="q2" value="B"> `&lt;html lang="pt-pt"&gt;`<br>
+                <input type="radio" name="q2" value="C"> `&lt;meta charset="utf-8" /&gt;`<br>
+                <input type="radio" name="q2" value="D"> `&lt;body&gt;`<br>
+            </div>
+            <div class="question">
+                <p>3) Que extensão devem ter os ficheiros HTML?</p>
+                <input type="radio" name="q3" value="A"> A) .html<br>
+                <input type="radio" name="q3" value="B"> B) .htm<br>
+                <input type="radio" name="q3" value="C"> C) .webpage<br>
+                <input type="radio" name="q3" value="D"> D) .index<br>
+            </div>
+            <div class="question">
+                <p>4) Qual é a principal função do CSS em uma página web?</p>
+                <input type="radio" name="q4" value="A"> A) Estruturar o conteúdo<br>
+                <input type="radio" name="q4" value="B"> B) Adicionar interatividade<br>
+                <input type="radio" name="q4" value="C"> C) Estilizar o layout<br>
+                <input type="radio" name="q4" value="D"> D) Executar lógica de programação<br>
+            </div>
+            <div class="question">
+                <p>5) Em HTML, qual tag é usada para criar uma lista não ordenada?</p>
+                <input type="radio" name="q5" value="A"> `&lt;ul&gt;`<br>
+                <input type="radio" name="q5" value="B"> `&lt;ol&gt;`<br>
+                <input type="radio" name="q5" value="C"> `&lt;li&gt;`<br>
+                <input type="radio" name="q5" value="D"> `&lt;list&gt;`<br>
+                <input type="radio" name="q5" value="E"> `&lt;ulist&gt;`<br>
+            </div>
+            <button type="button" onclick="submitQuiz()">Enviar</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
